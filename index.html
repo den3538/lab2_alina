@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Лабораторная работа № 1 нечеткие множества</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/darkly/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- гугл графики -->
+	  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  
+
+</head>
+
+	<body>
+	<h1 class = "text-center">Нечеткие множества</h1>
+	<h2 class="text-center">Лабораторная работа № 2</h2>
+	<h3 class="text-center">Вариант №11</h3>
+	
+
+	<div class="container">
+		<div class="row">
+		<div class="col-lg-12 text-center">
+			<h3>
+				a*y'-(b*y)/x=x^2*y^3
+			</h3>
+			<h4 class = "text-left">
+				a=[0.7;1.6];<br>
+				b=[1.8;3.2];<br>
+				y(1)=1;<br>
+				y(4)=?
+			</h4>
+			<h4>
+				y^2=-(4*a)/(2*x^3)-a/(2*b*y)-C <br>
+				[C]=y^2-(4*[a])/(2*x^3)-[a]/(2*[b]*y);
+			</h4>
+			<button class="btn btn-primary" name = "calculate">Рассчитать</button>
+		</div>
+	
+			<div class="col-lg-12 text-center" id = "wrapper">
+				
+			</div>
+		</div>
+	</div>
+
+	
+		
+
+	 <script src = "js/jquery-3.2.1.min.js"></script>
+	 <script src = "js/script.js"></script>
+
+	</body>
+</html>
